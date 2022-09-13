@@ -1,0 +1,17 @@
+{
+    "name": "alecritson/package-a",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alecritson\\PackageA\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alec Ritson",
+            "email": "hello@itsalec.co.uk"
+        }
+    ],
+    "require": {}
+}

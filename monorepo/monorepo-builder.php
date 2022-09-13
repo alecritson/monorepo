@@ -18,6 +18,8 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters = $containerConfigurator->parameters();
     $services = $containerConfigurator->services();
 
+    $parameters->set(Option::DEFAULT_BRANCH_NAME, 'main');
+
     $services->set(UpdateReplaceReleaseWorker::class);
     $services->set(SetCurrentMutualDependenciesReleaseWorker::class);
     $services->set(AddTagToChangelogReleaseWorker::class);

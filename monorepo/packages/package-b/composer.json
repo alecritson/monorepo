@@ -8,7 +8,7 @@
         }
     },
     "require": {
-      "alecritson/package-a": "*"
+        "alecritson/package-a": "^0.1"
     },
     "authors": [
         {

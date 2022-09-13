@@ -22,7 +22,7 @@
         }
     },
     "replace": {
-        "alecritson/package-a": "self.version",
-        "alecritson/package-b": "self.version"
+        "alecritson/package-a": "0.1.0",
+        "alecritson/package-b": "0.1.0"
     }
 }

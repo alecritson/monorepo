@@ -70,7 +70,7 @@ jobs:
                     tag: ${GITHUB_REF#refs/tags/}
 
                     package-directory: 'packages/${{ matrix.package }}'
-                    split-repository-organization: 'symplify'
+                    split-repository-organization: 'alecritson'
                     split-repository-name: '${{ matrix.package }}'
                     user-name: "GitHub Action"
                     user-email: "action@github.com"

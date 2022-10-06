@@ -40,7 +40,6 @@ jobs:
 
       - name: Tag ${{ matrix.package }}
         if: "startsWith(github.ref, 'refs/tags/')"
-        run: echo "${GITHUB_REF#refs/tags/}"
         uses: symplify/github-action-monorepo-split@main
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
